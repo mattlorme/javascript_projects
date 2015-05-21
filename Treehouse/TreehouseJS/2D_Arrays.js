@@ -7,7 +7,7 @@ var playList = [
   ['Wasp Nest', 'The National'],
 ];
 
-function print(message) {
+function print( message ) {
   document.write(message);
 }
 
