@@ -16,11 +16,11 @@ destination = destination.toUpperCase();
 			alert("All right!  The mountains sound fun.");
 			break;
 		default:
-			alert("It's either the beach or the mountains.  Pick one.");
+			alert("Since you didn't pick, I'm picking for you.  I pick the mountains.");
 			break;
 	}
 
-result ? alert("All right!  The beach it is.  Don't forget your raincoat."):alert("OK.  So we'll go to the mountains.");
+result ? alert("All right!  The beach it is.  Don't forget your raincoat."):alert("Mountains are great");
 
 if (result === false || destination === "MOUNTAINS") {
 	alert("You'll want to pack " + mountainItems.join(", "));
