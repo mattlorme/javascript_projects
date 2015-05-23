@@ -16,13 +16,13 @@ destination = destination.toUpperCase();
 			alert("All right!  The mountains sound fun.");
 			break;
 		default:
-			alert("Since you didn't pick, I'm picking for you.  I pick the mountains.");
+			alert("Since you didn't pick the beach or the mountains, I'm picking for you.  I pick the mountains.");
 			break;
 	}
 
-result ? alert("All right!  The beach it is.  Don't forget your raincoat."):alert("Mountains are great");
+result ? alert("All right!  The beach it is.  Don't forget your raincoat."):alert("All right! The mountains are great.");
 
-if (result === false || destination === "MOUNTAINS") {
+if (result === false || destination === "MOUNTAINS" || result === undefined) {
 	alert("You'll want to pack " + mountainItems.join(", "));
 } else {
 	beachItems.push("raincoat");
